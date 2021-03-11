@@ -1,13 +1,13 @@
 <?php
 
-namespace Hyperf\Hashids\Contract;
+namespace LittleSuperman\HyperfHashids\Contract;
 
 use Hashids\HashidsInterface as SupperHashidsInterface;
 
 /**
  * Interface HashidsInterface
  *
- * @package Hyperf\Hashids\Contract
+ * @package LittleSuperman\HyperfHashids\Contract
  */
 interface HashidsInterface extends SupperHashidsInterface
 {

@@ -1,5 +1,5 @@
 {
-    "name": "hyperf/hashids",
+    "name": "little-superman/hyperf-hashids",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -10,7 +10,7 @@
     "description": "",
     "autoload": {
         "psr-4": {
-            "Hyperf\\Hashids\\": "src/"
+            "LittleSuperman\\HyperfHashids\\": "src/"
         }
     },
     "autoload-dev": {
@@ -46,7 +46,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Hyperf\\Hashids\\ConfigProvider"
+            "config": "LittleSuperman\\HyperfHashids\\ConfigProvider"
         }
     }
 }

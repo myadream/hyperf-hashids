@@ -20,7 +20,7 @@ $hashidsManager->encode(911);
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
 
 ```bash
-$ composer require "hyperf/hashids:dev-master"
+$ composer require "little-superman/hyperf-hashids:dev-main"
 ```
 
 ## Configuration
@@ -47,7 +47,7 @@ Here you can see an example of you may use this package. Out of the box, the def
 
 ```php
 // You can alias this in config/app.php.
-use Hyperf\Hashids\Hashids;
+use LittleSuperman\HyperfHashids\Hashids;
 
 // We're done here - how easy was that, it just works!
 Hashids::encode(4815162342);
@@ -59,7 +59,7 @@ Hashids::decode('doyouthinkthatsairyourebreathingnow');
 The manager will behave like it is a `Hashids\Hashids` class. If you want to call specific connections, you can do that with the connection method:
 
 ```php
-use Hyperf\Hashids\Hashids;
+use LittleSuperman\HyperfHashids\Hashids;
 
 // Writing this...
 Hashids::connection('main')->encode($id);
@@ -80,7 +80,7 @@ Hashids::setDefaultConnection('alternative'); // The default is now alternative.
 If you prefer to use dependency injection over facades, then you can inject the manager:
 
 ```php
-use Hyperf\Hashids\Contract\HashidsInterface;
+use LittleSuperman\HyperfHashids\Contract\HashidsInterface;
 
 class Foo
 {

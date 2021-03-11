@@ -2,3 +2,4 @@
 composer.lock
 *.cache
 *.loggit@github.com:myadream/hyperf-hashids.git
+.idea

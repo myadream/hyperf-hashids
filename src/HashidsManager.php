@@ -1,15 +1,15 @@
 <?php
 
-namespace Hyperf\Hashids;
+namespace LittleSuperman\HyperfHashids;
 
 use \Hashids\Hashids as SupperHashids;
 use Hyperf\Contract\ConfigInterface;
-use Hyperf\Hashids\Contract\HashidsInterface;
+use LittleSuperman\HyperfHashids\Contract\HashidsInterface;
 
 /**
  * Class Hashids
  *
- * @package Hyperf\Hashids
+ * @package LittleSuperman\HyperfHashids
  */
 class HashidsManager implements HashidsInterface
 {
